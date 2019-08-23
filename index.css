@@ -32,13 +32,11 @@ header {
   align-self: flex-end;
   white-space: nowrap;
 }
-div.table-container {
-  width: 100%;
-}
 table {
   width: 100%;
+  border-collapse: collapse;
 }
-table td {
+table tr {
   border-bottom: 1px solid black;
 }
 span.table-header-text {
@@ -47,8 +45,7 @@ span.table-header-text {
   font-weight: 600;
   padding: 0px;
 }
-
-td.row-data {
+td {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -68,22 +65,34 @@ img.app-store-link {
 img.google-play-link {
   height: 50px;
 }
+img.link-image {
+  height: 50px;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
 div.app-store-container {
   display: flex; 
   flex-direction: column;
-  height: 100%;
 }
-th {
+div.links-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+th.table-header {
   background-color: #232323;
   color: #FCFCFC;
   text-align: left;
 }
+th.table-footer {
+  background-color: #F0F0F0;
+}
 a.details-button {
   background-color: black;
   color: white;
-  font-size: 30px;
+  font-size: 2em;
   font-weight: 500;
-  width: 200px;
   height: 50px;
   border-radius: 8px;
   border: 1px solid #A6A6A6;
@@ -105,11 +114,9 @@ a.details-button {
   }
   img.app-logo {
     height: 50px;
-    width: 50px;
   }
   span.app-name {
     font-size: 2em;
-    height: 50px;
   }
   img.app-store-link {
     /* height: 50px; */
