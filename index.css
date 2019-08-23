@@ -56,7 +56,7 @@ td {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 1em 2em 1em 2em;
+  margin: 1em 2em;
 }
 td > * {
   margin-top: auto;
@@ -70,7 +70,7 @@ span.app-name {
   font-weight: 500;
 }
 img.app-store-link {
-  width: 200px;
+  height: 50px;
 }
 img.google-play-link {
   height: 50px;
@@ -93,6 +93,17 @@ div.links-container {
 div.gallery-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+div.app-gallery-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-right: auto;
+  display: inline-block;
+}
+div.app-gallery-container a {
+  margin-right: 1rem;
 }
 th.table-header {
   background-color: #232323;
@@ -103,16 +114,6 @@ th.table-footer {
   background-color: #F0F0F0;
 }
 a.image-link {
-  text-decoration: none;
-}
-a.details-button {
-  background-color: black;
-  color: white;
-  font-size: 2em;
-  font-weight: 500;
-  height: 50px;
-  border-radius: 8px;
-  border: 1px solid #A6A6A6;
   text-decoration: none;
 }
 
@@ -130,17 +131,15 @@ a.details-button {
     margin: 5px 10px 5px 10px;
   }
   img.app-logo {
-    height: 50px;
+    height: 75px;
   }
   span.app-name {
     font-size: 2em;
   }
   img.app-store-link {
-    /* height: 50px; */
-    width: 100px;
+    height: 25px;
   }
   img.google-play-link {
-    /* height: 50px; */
-    width: 100px;
+    height: 25px;
   }
 }
