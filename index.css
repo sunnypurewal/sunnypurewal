@@ -80,6 +80,10 @@ div.links-container {
   margin-right: auto;
   display: inline-block;
 }
+div.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 th.table-header {
   background-color: #232323;
   color: #FCFCFC;
@@ -87,6 +91,9 @@ th.table-header {
 }
 th.table-footer {
   background-color: #F0F0F0;
+}
+a.image-link {
+  text-decoration: none;
 }
 a.details-button {
   background-color: black;
