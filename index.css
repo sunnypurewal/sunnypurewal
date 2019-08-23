@@ -98,7 +98,6 @@ div.gallery-container {
 div.app-gallery-container {
   display: flex;
   flex-direction: row;
-  margin-left: 1rem;
   margin-right: auto;
   display: inline-block;
 }
