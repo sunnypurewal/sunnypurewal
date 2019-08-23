@@ -39,6 +39,12 @@ table {
 table tr {
   border-bottom: 1px solid black;
 }
+table tr.last-row {
+  border: none;
+}
+table tr.footer-row {
+  border: none;
+}
 span.table-header-text {
   margin-left: 1.333rem;
   font-size: 3em;
@@ -51,6 +57,10 @@ td {
   flex-wrap: nowrap;
   justify-content: space-between;
   margin: 1em 2em 1em 2em;
+}
+td > * {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 img.app-logo {
   height: 100px;
