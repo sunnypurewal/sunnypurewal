@@ -154,4 +154,7 @@ a:visited {
   img.google-play-link {
     height: 25px;
   }
+  div.no-mobile {
+    display: none;
+  }
 }
