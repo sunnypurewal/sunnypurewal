@@ -78,6 +78,8 @@ span.app-name {
 }
 p.app-description {
   font-size: 1.25em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 img.app-store-link {
   height: 50px;
@@ -152,7 +154,6 @@ a:visited {
     font-size: 2em;
   }
   p.app-description {
-    margin: 0px 10px;
   }  
   img.app-store-link {
     height: 25px;
