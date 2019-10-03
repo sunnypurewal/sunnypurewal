@@ -1,4 +1,4 @@
-html {
+ {
   font-size: 16px;
 }
 body {
@@ -76,6 +76,9 @@ span.app-name {
   font-size: 4em;
   font-weight: 500;
 }
+p.app-description {
+  font-size: 1.25em;
+}
 img.app-store-link {
   height: 50px;
 }
@@ -148,6 +151,9 @@ a:visited {
   span.app-name {
     font-size: 2em;
   }
+  p.app-description {
+    margin: 0px 10px;
+  }  
   img.app-store-link {
     height: 25px;
   }
